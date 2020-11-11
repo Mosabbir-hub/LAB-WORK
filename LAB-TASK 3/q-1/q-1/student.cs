@@ -87,5 +87,15 @@ namespace q_1
 
 
               }
+        public void showinfo 
+        {
+
+         console.writeline("name is: "+id;)
+         console.writeline("name is: "+name;)
+         console.writeline("name is: "+department;)
+         console.writeline("name is: "+cgpa;)
+
+
+        }
     }
 }
