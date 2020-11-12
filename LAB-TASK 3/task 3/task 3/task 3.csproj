@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{58223F6B-3B1B-4CFF-9A50-5E27C63660E9}</ProjectGuid>
+    <ProjectGuid>{14CB3A9F-3868-48E9-8FF3-6D9749BC17E4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>q_1</RootNamespace>
-    <AssemblyName>q-1</AssemblyName>
+    <RootNamespace>task_3</RootNamespace>
+    <AssemblyName>task 3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
