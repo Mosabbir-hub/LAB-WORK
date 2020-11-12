@@ -1,0 +1,2 @@
+E:\LAB-TASK\lab task 3\task-3\task-3\obj\Debug\task-3.csprojAssemblyReference.cache
+E:\LAB-TASK\lab task 3\task-3\task-3\obj\Debug\task-3.csproj.CoreCompileInputs.cache
