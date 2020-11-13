@@ -20,14 +20,14 @@ namespace task_3
 
         }
 
-        public string Name
+        public string  Name
         {
             protected set { name = value; }
             get { return name; }
 
         }
 
-        public float Cgpa
+        public float  Cgpa
         {
             protected set { cgpa = value; }
             get { return cgpa; }
@@ -54,7 +54,7 @@ namespace task_3
     static void Main(string[] args)
     {
         Student obj = new Student();
-        obj.Name = "hossain mosabbir";
+        obj.Name = "Hossain Mosabbir";
         obj.Id = "19-40432-1";
         obj.Dept = "CSE";
         obj.Cgpa = 3.00;
