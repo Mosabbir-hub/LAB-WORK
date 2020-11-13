@@ -23,7 +23,7 @@ namespace task_3
 
     public class Account
     {
-        private string acName = "hossain mosabbir";
+        private string acName = "HOSSAIN MOSABBIR";
         private string aid = "19404321";
         private int balance = 0;
 
