@@ -16,7 +16,7 @@ namespace Bankexercise
     }
 
     // class 'Account' inherit 
-    // in child class 'greak 1' 
+    // in child class 'Savings' 
     public class Savings : Account
     {
 
