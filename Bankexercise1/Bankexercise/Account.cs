@@ -16,7 +16,7 @@ namespace Bankexercise
     }
 
     // class 'Account' inherit 
-    // in child class 'Savings' 
+    // in child class 'Savings 
     public class Savings : Account
     {
 
@@ -75,8 +75,8 @@ namespace Bankexercise
         {
 
             // 'g' is object of class 
-            // 'GeeksForGeeks' class ' 
-            // GeeksForGeeks' cannot 
+            // 'Account' class ' 
+            // Account' cannot 
             // be instantiate 
             Account a;
 
