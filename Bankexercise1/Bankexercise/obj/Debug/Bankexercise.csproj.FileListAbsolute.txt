@@ -1,1 +1,2 @@
 E:\LAB-TASK\Bankexercise1\Bankexercise\obj\Debug\Bankexercise.csproj.CoreCompileInputs.cache
+E:\LAB-TASK\Bankexercise1\Bankexercise\obj\Debug\Bankexercise.csprojAssemblyReference.cache

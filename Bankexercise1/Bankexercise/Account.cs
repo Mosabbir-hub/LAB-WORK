@@ -19,13 +19,38 @@ namespace Bankexercise
     // in child class 'Savings 
     public class Savings : Account
     {
+        public double Withdrwal;
+        public double balance;
+        private readonly object Newbalance;
+        private readonly object Newbalance1;
 
+        public Savings()
+        {
+           
+                double Newbalace;
+                double Newbalance1;
+                double deposit;
+                Console.WriteLine("Please enter amount you want to deposit: ");
+                deposit = Double.Parse(Console.ReadLine());
+                Newbalace = balance + deposit;
+                Console.WriteLine("Please enter amount you want to withdrwal: ");
+                Withdrwal = Double.Parse(Console.ReadLine());
+            _   Newbalance1 = balance - deposit;
+
+        }
+        
         // abstract method 'gfg()'  
         // declare here with  
         // 'override' keyword 
-        public override void gfg()
+        public override object  gfg()
         {
-            Console.WriteLine("class Savings");
+
+            return Newbalance;
+            return Newbalance1;
+
+
+
+
         }
     }
     // class 'Account' inherit 
@@ -74,7 +99,7 @@ namespace Bankexercise
         public static void Main()
         {
 
-            // 'g' is object of class 
+            // 'a' is object of class 
             // 'Account' class ' 
             // Account' cannot 
             // be instantiate 
