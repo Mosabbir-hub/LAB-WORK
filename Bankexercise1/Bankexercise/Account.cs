@@ -19,16 +19,17 @@ namespace Bankexercise
     // in child class 'Savings 
     public class Savings : Account
     {
-        public double Withdrwal;
-        public double balance;
-        private readonly object Newbalance;
-        private readonly object Newbalance1;
+        public double Withdrwal ;
+        public double balance ;
+        private readonly object Newbalance ;
+        private readonly object Newbalance1 ;
 
         public Savings()
         {
            
                 double Newbalace;
                 double Newbalance1;
+
                 double deposit;
                 Console.WriteLine("Please enter amount you want to deposit: ");
                 deposit = Double.Parse(Console.ReadLine());
@@ -38,18 +39,20 @@ namespace Bankexercise
             _   Newbalance1 = balance - deposit;
 
         }
-        
+
         // abstract method 'gfg()'  
         // declare here with  
         // 'override' keyword 
-        public override object  gfg()
+        public override object gfg()
         {
 
             return Newbalance;
+           
+        }
+        public override object gfg ()
+        {
+
             return Newbalance1;
-
-
-
 
         }
     }
@@ -60,7 +63,7 @@ namespace Bankexercise
 
         // abstract method 'gfg()'  
         // declare here with  
-        // 'override' keyword 
+        // 'override' keyword  
         public override void gfg()
         {
             Console.WriteLine("class Fixed");
@@ -129,6 +132,23 @@ namespace Bankexercise
 
             // call 'gfg()' of class 'overdraft' 
             a.gfg();
+
+
+            Console.WriteLine("YOU CURREENT BALANCE  IS: 500 ") ;
+            Console.WriteLine("PRESS (D)  FOR  DEPOSIT AN  WITHDRWAL AND PRESS  (W)  FOR  WITHDRWAL  ")  ;
+            double balance = Console.WriteLine(Console.ReadLine()) ;
+
+            if (balance = "d")
+            {
+                NewBalance = Savings.deposit;
+                Console.WriteLine("You new balance  is " + NewBalance) ;
+            }
+            if (balance = = "W")
+            {
+                Newbalance1 = Bank.Writeline() ;
+                Console.WriteLine("Your new balance is : " + Newbalance1)  ;
+                Console.ReadLine() ;
+            }
 
         }
 
