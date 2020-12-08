@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace lab_task_8
 {
-    public partial class Secend : Form
+    public partial class Secend: Form
     {
         public Secend()
         {
             InitializeComponent();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

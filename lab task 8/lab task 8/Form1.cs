@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace lab_task_8
 {
@@ -24,9 +25,21 @@ namespace lab_task_8
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Secend ss = new Secend();
-            ss.Show();
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C: \Users\MOSABBIR HOSSAIN\Documents\Data.mdf;Integrated Security=True;Connect Timeout=30;");
+            SqlDataAdapter sda = new SqlDataAdapter("Select Count(*) From login where Usename: ' " + textBox1.Text + " ' and Password = ' " + textBox2.Text + " ' ",con);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+            if (dt.Rows[0][0].ToString() == "1")
+            {
+                this.Hide();
+                Secend ss = new Secend();
+                ss.Show();
+            }
+            else
+            {
+                MessageBox.Show("Please cheak your Username and password");
+            }
+            
         }
     }
 }
